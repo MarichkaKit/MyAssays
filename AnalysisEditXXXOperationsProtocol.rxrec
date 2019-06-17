@@ -1,0 +1,3218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="86bc02f0-96d3-4f0b-b278-9a2cc7fb1f85"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		AnalysisEditXXXOperationsProtocol
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AnalysisEditXXXOperationsProtocol"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="76475153-912a-4c8d-b9a9-fde358fdd52c"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="0d2064a9-308d-41bc-8a1a-1085f7f7190c">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title~'Measurements}$' and @visible='True']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="5000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidatePadIsReadOnly"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="919fd32d-894e-483a-add9-476c3030f539"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="ff65035c-8cda-4685-869f-ffc08b7a2817"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="95b4091b-ed51-478f-9cd6-625a3d5ad6ac">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container/container/container[@automationid='LayoutRoot']//tabpage[@automationid='EndpointGridTab']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidatePlateIsReadOnly"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="fd7ca396-480b-498f-8e5f-44a4d7bc78c5"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="7a48af31-2332-4534-9196-d899ceb81355"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="a936da51-09cc-435f-bffd-459792838577">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container/container/container[@automationid='LayoutRoot']//container[@automationid='LayoutRoot']/?/?/element[@automationid='MeasurementsControlInstance']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='KineticGridTab']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ToggleFlagPointOnMeasurementsChart"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="6f4626a2-dd83-4b26-aea8-14887192a50c">
+				<argument
+				argname="pointX"
+				id="8ba6a04e-1fda-4e6e-bd8b-df205b1cfd2f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointY"
+				id="5139878a-0370-47a9-99fc-a74db82b2c0a">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						0.374
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidatePointFlagState"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="10b0ce37-790e-4fad-92d0-d5b05727f81e">
+				<argument
+				argname="expectedState"
+				id="6c089470-eb4b-425c-927d-e6eb00ea750e">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						False
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointX"
+				id="69af96c7-38c3-4201-8ec2-a0a1d2b989e0">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointY"
+				id="cc97d820-446b-47f6-8bab-a3284e4889dc">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						0.374
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="8278f95f-8aed-4cc9-85a4-a8b4eef7f8f0"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="419"
+		sy="160"
+		loc="64;13">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="62c199e6-ed3e-4273-be3e-8a596efb5b23">
+				<element
+				role="tabpage"
+				prefcap="tabpage"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="5"
+				rect="355,147,76,23"
+				snapElem="">
+					<attribute
+					name="index"
+					type="System.Int32">
+						5
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Plate IDs
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						ContainerIDsTab
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TabItem
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.TabItemExt
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						ContainerIDsTab
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TabItemExt
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Content"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Content property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContentStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ContentStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasContent"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HasContent property of type Boolean."/>
+					<dynamicattribute
+					name="HasHeader"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HasHeader property of type Boolean."/>
+					<dynamicattribute
+					name="Header"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Header property of type Object."
+					weight="107"
+					readonly="False"/>
+					<dynamicattribute
+					name="HeaderStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HeaderStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HoverBackground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HoverBackground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="ImageHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ImageHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ImageWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ImageWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsMSDictionaryMerged"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsMSDictionaryMerged property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTabEditing"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsTabEditing property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemForItemContainer"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ItemForItemContainer property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ItemToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabStripPlacement"
+					type="System.Windows.Controls.Dock, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.TabStripPlacement property of type Dock."/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseCustomEditableTemplate"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.UseCustomEditableTemplate property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ZIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ZIndex property of type Int32."
+					readonly="False"/>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container/container/container[@automationid='LayoutRoot']//tabpage[@automationid='ContainerIDsTab']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="84b00c5d-faa9-4403-a0a6-4b2ed6a47d43">
+				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
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAGX/YOm
+f8+3/kRv8aP7B0z/AJ9v/Ijf4003F5IhRisUiypyU6gn0Dn+dTxXNzJdlVhzCrlGbjjHfO7P4Y/G
+mIi/sHTP+fb/AMiN/jSWllb2WsBbaPYGgJPzE/xD1qzdxqZrdznIkAHJx0Pbp+NN/wCY0n/Xuf8A
+0IUAXqKKKQwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAphbARGMLbCNuqgLg/hS/6F5wm/0fzR0f5d350v8AZtj/AM+dv/37FH9m2P8Az52//fsU7isO
+M1u2MyxHByMsOKrrIkmtIUdWxAehz/EKm/s2x/587f8A79ipIbS2t2LQ28UbEYJRADSGTUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f9213f4b-8945-4c30-a3dd-487519bc2949"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="158"
+		sy="188"
+		loc="12;16">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="cf30e92f-a7dc-4367-996b-9589131c12ad">
+				<element
+				role="unknown"
+				prefcap="unknown"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="False"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="146,172,153,24"
+				snapElem="">
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Media.Visual
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Controls.Cells.NoHitTestDrawingVisual
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						NoHitTestDrawingVisual
+					</attribute>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container/container/container[@automationid='LayoutRoot']//element[@automationid='SeriesDataGrid']/element[@automationid='BackgroundFrame']/element[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1a315e43-e70c-4c6d-bc6e-2b9f675ce425">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAFoAWgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC75LxR
+wTeZIZXfBUgj9K16iaENcLKzE7R8q9hUtXKVxJWI7f8A1Z/33/8AQjVTVFlUJJDbyzkkKVjuWjx6
+HA4P1/yLsa7FIznkn8zmnVAxkCeXCqnOQOcuX5+p5NPoooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gCp9rf8A55J/32f8KPtjDl4wFHUhs/0qnmkY/I3+6f5V5/1ifc6fZI1mbGMDJJwKT95/dX/vr/61
+I330/wB7+hqSvQOYZ+8/ur/31/8AWo/ef3V/76/+tT6iupjBAZAM4ZQeCeCQOg+tADv3n91f++v/
+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
+5EX/AAjsf/PVf+/X/wBeo20KERPIs0b7Ac4jHUduta9mzS2gMrxy5yNyMGBGfXAB/Koo1VLG5VFC
+qC4AAwAKORB9Yqd/wX+RHpFkYgl0Zd3mRAbcdOnfPtWnVfTv+Qdbf9cl/lVihJLYznOU3eQUUUUy
+QooooAKKKKACiiigAooooAKKKKAKP2pflCxuzNkbRjII655xThcKyKQGyzFMY5B5z/KkitxGYz8g
+2hhhE2g5x2/ChbcLcNLu4PRcdCcZP6D9aAGLdKIkIWSQbA7HAyo9T/8AWp5uowM8/fCfie/0qE2A
+wmPKYqgQ+ZHuBx3HPFSPaq0jtuwGTbgDofWgCZHEgJXOASv5U6mRJ5cSpnJHU+p7mn0xBRRRQAUU
+UUAFFFFACr/rF+v9Kgb7x+tTr/rF+v8ASpcD0FF7CauUqKu4HoKMD0FPmFyFKiruB6CjA9BRzByF
+KiruB6CjA9BRzByFKiruB6CjA9BRzByFKiruB6CjA9BRzByFKkCgZwMZOTgVewPQUYHoKOYOQwtE
+1Gzg0mGKa4RHXdlT2+Y1f/tfT/8An7j/ADq9gegowPQVJZR/tfT/APn7j/Oj+19P/wCfuP8AOr2B
+6CjA9BTuKxR/tfT/APn7j/Oo59WsGt5FW6jJKkAZ9q0sD0FGB6Ci4WINO/5B1t/1yX+VWKKKQwoo
+ooAKKKKACiiigAooooAKKKKACiiigCGkpaSmIKKKKACiiigAooooAKKKKACiiigBV/1i/X+lTVCv
++sX6/wBKmpDCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigCGkpaSmIKKKKACiiigAooooAKKKKACiiigBV/wBYv1/pU1Qr/rF+v9Km
+pDCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigCGkpaSmIKKKKACiiigAooooAKKKKACiiigBV/1i/X+lTVCv8ArF+v9KmpDCiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igCGkpN6f3l/Ojev94fnTELRSb1/vD86Tev94fnQA6im71/vD86N6/3h+dADqKbvX+8Pzo3r/eH5
+0AOopu9f7w/Ojev94fnQA6im71/vD86N6/3h+dAD1/1i/X+lTVAjAyLgg8+vtU9IYUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUANb7yfX+hp1Nb7yfX+hp1ABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQA1vvJ9f6GnU1vvJ9f6GnUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFADW+8n1/oadTW+8n1/oadQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANb7yfX+hp1
+Nb7yfX+hp1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQBVa/jTeJI5EdMfKcZOemMHFSLcgypE0bo7gkBscY+h96KKAI/t6HytkU
+jmUsFAA/hOD3pwvYzKF2vtZyiyYG0sO3r69qKKAI01FJBEVhm/eg7OB82Oo6/wA6eL6N0jMccjs+
+cIAMjHXPOKKKAG/2hEceXHJJmPzflA+7+J9qT7aWuokSMtE8W/dx7c9enP1oooAmt7gXChljdUIy
+rNjDD8D/ADqaiigAooooAa33k+v9DTqKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidatePlateIDsIsReadonly"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4c45a4dc-bd95-4544-bde2-964410373140"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ClickCanvasCell"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="40068f02-fc28-4dc7-8b2a-935c689d0659">
+				<argument
+				argname="index"
+				id="e51cb4c3-4ec3-4250-abc7-4243618fc63b">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckNotFlagged"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d1743b9b-0c50-4b14-8372-95457d5a5aac">
+				<argument
+				argname="index"
+				id="f25bd36b-6b60-438c-9157-21ecab4af6fc">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5bc7d205-abec-4643-9815-7221755f3e32"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="9b3ec890-cfbe-49c5-a75d-675585987c39">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='CalculateRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5bc7d205-abec-4643-9815-7221755f3e32"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="126d7b2e-877f-40f7-9ec9-22f3d31063c0">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/list[@automationid='Ribbon']/list[@automationid='HomeRibbonTab']/?/?/element[@automationid='PurgeRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5bc7d205-abec-4643-9815-7221755f3e32"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="f90090c6-27d6-4a54-8fe0-b73257fb107c">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//list[@automationid='Ribbon']/list[@automationid='HomeRibbonTab']/list[@automationid='VersionsBar']/element[@automationid='RollbackRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="OpenPropertiesEditor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="f66ab76a-f43a-4624-a0bb-fe983196b614"/>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="b9d94b0b-e5f9-4156-996a-b93600427aaa">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//button[@text='Add']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="3da3b62a-4d19-4825-b176-50c9b4d48bda">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Transforms']//button[@text='Remove']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d62b1c5-d099-4e5f-9901-6a2c379d6ffc"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="2b79c9ed-7f8b-4e00-959d-cebe7fc52f69">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Transforms']//table[@automationid='TransformsList']/container[2]/row[1]/cell/list/combobox
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d62b1c5-d099-4e5f-9901-6a2c379d6ffc"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="20ba5889-3dc3-41b3-b946-80ea88fba852">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@automationid='TransformsTab']/?/?/container[@automationid='Grid']/container/container[1]/container[@automationid='Grid']/table[@automationid='TransformsList']/container[@automationid='PART_RowsPresenter']//text[@automationid='OutputTextBox']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="06872bf6-1261-4414-89ca-1d861f816367"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="bfb1883a-baf9-4f8d-a84d-a22906a31aa1">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Evaluation']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="cad98a76-2392-4281-aba3-92d200404189">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Evaluation']//button[@text='Add']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="5817a12b-08c1-400d-9c44-22c2d86a43c6">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Evaluation']//button[@text='Remove']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f77c2db9-6330-4dcc-87f0-28917c1860a0"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="795"
+		sy="235"
+		loc="58;4">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="6ea48930-781e-4a1b-905e-fd3d7bff2ae4">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="737,231,93,11"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						EvaluationsTable1
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						EvaluationsTable1
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol:\ Matrix\ Transfor' and @processname='MyAssays.Desktop.Analysis']/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']//list[@automationid='TablesList']/?/?/listitem//text[@caption='EvaluationsTable1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3ff96360-e1d1-4438-b24f-02e07fcf4d9a">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAuALoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+AGyf6tvoaqR/ej+oq3J/q2+hqpH96P6imBdopkiq+0MAwz0P0qKQWkWPNECZ6bgBmkGrdkWKKqeZ
+p/8AftfzWjzNP/v2v5rRdD5Zdi3RVTzNP/v2v5rR5mn/AN+1/NaLoOWXYt0VU8zT/wC/a/mtHmaf
+/ftfzWi6Dll2LdFVPM0/+/a/mtHmaf8A37X81oug5Zdi3RVTzNP/AL9r+a0eZp/9+1/NaLoOWXYt
+0VU8zT/79r+a0eZp/wDftfzWi6Dll2LdFReRD/zxj/75FHkQ/wDPGP8A75FMm5LRUXkQ/wDPGP8A
+75FHkQ/88Y/++RQFyWiovIh/54x/98ijyIf+eMf/AHyKAuS0UUUhjZP9W30NVI/vR/UVbk/1bfQ1
+Uj+9H9RTAuN1X6/0rK1dVkurJGGVZyCPbK1qnqv1/pWTqzqlzZOxwquST7ZFRP4TbD39qref5EOn
+wWU8CSSmBi4X5Ii2UJ7H5j/SrEltpcaszRNtUkMQHIGOucdveoIriBLIWz3iMqoFRlhYFSOh6nPQ
+Uy5aznhSP7UuAjKd8JbJPVgOxznn3o9zyH/tH978SxHa2BuJY5IgMSiOPDNz8gb1+tOe20tIzIYm
+2BmUsA5AIODnHTp1qFp7Te0iXYD+aJFJiYgEJtwR34zUMv2SWHy2vEbJkJ3QEjLHOQOxHrR7nkH+
+0f3vxJxDp7STJ5Jj8qRU3MHIbOPp3OP16VKttpbTeUIzuyV6vgkdQD0J9qhee0Zpf9LAWR0fHlNk
+Fdvf/gNLHc2qSD/SwYVkaRU8ps5OTyfTk9vSj3PIP9o/vfiPji0iRSyKcBN+TvGV9Rnr+FV5orKS
+NnsvKOyRY3SRX3AlgP7wx19O1PWazWKBPtKt5ULRfPCSGzt5I/4D096dBYLd6bHLCyrOkjlHwQrA
+SEgEdcZH4UWi9hOdePxNr7yVbKwSRIZY/wB63GQHVWOM8HOPwzVWNbCTTWmEK+eIDLty4UkDnHPP
+PoaVZrc33nXEghmR8tG8RLqduNu7+73GKar232byJL4MqwNChELDGRjJ9entRaHkNSxDV1f8S4LT
+TPNERiO84zjfgHGcE9AfaqF7BHHbykQpG6ThPlYtxsDd/rU4lsVvDcLNCdxBO+3JYEDHDdunvUWo
+z28kMnky72kmEmNpGBsC/wBP1qZcttDaj7f2i5r2+Zv5ozTc0ZraxwXHZozTc0ZosFx2aM03NGaL
+BckoooqShsn+rb6Gqkf3o/qKtyf6tvoaqR/ej+opgXD1X6/0qKS3SXHmIj46bhnFSnqv1/pS0gK3
+2GD/AJ4Q/wDfAo+wwf8APCH/AL4FWaKB80u5W+wwf88If++BR9hg/wCeEP8A3wKs0UBzS7lb7DB/
+zwh/74FH2GD/AJ4Q/wDfAqzRQHNLuVvsMH/PCH/vgVRS6ms4iiWrCGGV2ldlIAQyHG0d+Dn0wK16
+RlV1KsAysMEEZBFAXb3Zl2VobiWSW8bzp4i0J3ogUjggjA9COp7mrn2GD/nhD/3wKmihigXbDEka
+k5wigDP4U+gE2tmVvsMH/PCH/vgUfYYP+eEP/fAqzRQHNLuM2H2o2H2p9FO5NkM2H2o2H2p9FFws
+hmw+1Gw+1PoouFkf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d62b1c5-d099-4e5f-9901-6a2c379d6ffc"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="dabd50bc-4cd7-412d-95c1-00efdfdb34a1">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']//element[@automationid='DockingManager']/container[@automationid='MainPanel']//container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']/container/container[3]//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container//text[@caption='']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="2ca32791-bfca-4e10-ac09-dd2849b9eecd">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Evaluation']/container[1]/container/container[1]/container[2]/container[1]/container/button[@text='Add']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="a66ae69e-6164-49e4-845f-9128118b6a1b">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Evaluation']/container[1]/container/container[1]/container[2]/container[1]/container/button[@text='Remove']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="93d4a154-ba51-4e0d-8bc2-7db5c9425e00">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']//list[@automationid='TableItemsList']/container[1]/listitem//text[@automationid='DescriptionTextBox']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="7341fd76-16df-4bc2-bbdb-22e40e984243">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']/container//list[@automationid='TableItemsList']/container[1]/listitem//combobox[@automationid='EndpointMatricesComboBox']/?/?/checkbox[@automationid='ToggleButton']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="25316ae0-14ab-452a-9bfc-188ae6c08484">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']/container/container[2]/container[2]/button[1]
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="5f880e40-ec25-49f5-b020-109f1ab03b13">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Evaluation']/?/?/container[@automationid='Grid']/container/container[2]/container[2]/button[2]
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="ae13e868-a552-4a9a-8068-202da1a9f6a1"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="08b08895-fb8b-4f1a-826f-798502601625">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[1]//button[@text='Add']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="7417d47c-8fc4-4674-8c24-2f93b532a568">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[1]//button[@text='Remove']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="1ce9585a-9c9c-4cbd-8e36-ed49f51e6261"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="810"
+		sy="241"
+		loc="74;10">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="ac3674ad-d5f4-4e1d-8a83-009bbcb8ce7b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="736,231,91,11"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						ValidationsTable1
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						ValidationsTable1
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol:\ Matrix\ Transfor' and @processname='MyAssays.Desktop.Analysis']//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']//list[@automationid='TablesList']/container[1]/listitem//text[@caption='ValidationsTable1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="34fac2df-5ccd-4813-a6b9-f2b3d98cf284">
+				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
+YfajYfan0UXCyP/Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="5123d12e-02f8-419f-b556-67bb6f31c722">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[3]//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container/container[1]//text[@caption='']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="674a4633-24c8-4940-a332-befd554fd405">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[2]/container[1]/container/button[@text='Add']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="48cc4870-4f69-48d4-944c-c65c5d73638b">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[2]/container[1]/container/button[@text='Remove']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="bd473326-3387-472e-a5f1-d4d49a65846c">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[2]/container[2]/button[1]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f0d85889-4fe8-4b95-92dc-1437e8c4dc1a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="5456d806-b366-4eba-ae69-d18b8831c7e7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/?/?/container[@automationid='Grid']/container/container[2]/container[2]/button[2]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="f31c0076-fc23-4fd8-b2e5-3a56cc0f2cb7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//list[@automationid='TableItemsList']/container[1]/listitem//text[@automationid='DescriptionTextBox']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="3086177b-781c-4660-8749-c760839ac8e6">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//list[@automationid='TableItemsList']/container[1]/listitem//combobox[@automationid='EndpointMatricesComboBox']/?/?/checkbox[@automationid='ToggleButton']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="afdce02b-054d-4b87-95a8-59554fe4ced8"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="3e1bb9a8-1d2d-4935-8be8-038851f0dd9f">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='XmlTab']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="043f3646-427b-43c3-a1a0-df71be587d76"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="57f25416-4bf6-4cf1-8ec3-508ed49dcf74">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='XmlTab']//element[@automationid='XmlEditorControl']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e96c2bfd-d0cf-433b-854d-53aae84e4166"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="a4d71ae5-83ed-4b44-bbf4-6468cdc7b4b2">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Report']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b9f0efc3-1386-4365-8e49-1b97c40d29f6"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="c0c9d154-6a3f-4f7f-8b0a-11bb6f1b2d34">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container/container[1]/container[2]/button[2]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b9f0efc3-1386-4365-8e49-1b97c40d29f6"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="567278ff-b703-4304-a838-e4c409f36534">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container/container[1]/container[2]/button[1]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateAddElementNotVisible"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ba7a93a1-9eb8-426b-a435-f8550aeb01f3"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateRemoveElementNotVisible"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="78e08c67-6f88-4d24-8623-7d1cfdbe526a"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="4b238d2c-7c24-4b2f-9a75-8d348c7e2abb"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="716"
+		sy="238"
+		loc="54;6">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="3160bf47-1edb-485f-93f4-0f9a13d1739c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="662,232,72,14"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						SampleTable1
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						SampleTable1
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']//list[@automationid='ReportsList']/container[1]/listitem[1]//text[@caption='SampleTable1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dc9a654c-e338-43f3-be45-5a8982f4e518">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAuALoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigCtcf63/gI/rUtv/qFqK4/1v/AR/Wpbf/ULQBFBOogjG2ThQOI29PpT/PT+7L/36b/Cmyzr
+bWnmuCVUDIHX0qn/AG5bf3JvyH+NDlFblwpVJq8UXvPT+7L/AN+m/wAKPPT+7L/36b/CqP8Ablt/
+cm/If40f25bf3JvyH+NLniX9Xrfyl7z0/uy/9+m/wo89P7sv/fpv8Ko/25bf3JvyH+NH9uW39yb8
+h/jRzxD6vW/lL3np/dl/79N/hR56f3Zf+/Tf4VR/ty2/uTfkP8aP7ctv7k35D/GjniH1et/KXvPT
++7L/AN+m/wAKPPT+7L/36b/CqP8Ablt/cm/If40f25bf3JvyH+NHPEPq9b+Uveen92X/AL9N/hR5
+6f3Zf+/Tf4VBaalFdymONZAQu75gP8at5qk09jKUZQdpEfnp/dl/79N/hR56f3Zf+/Tf4VJmjNBN
+yMzIcZSTjp+6b/Cjz0/uy/8Afpv8KkzRmgLkfnp/dl/79N/hR56f3Zf+/Tf4VJmjNAXHUUUUhhRR
+RQBWuP8AW/8AAR/Wpbf/AFC1Fcf63/gI/rUtv/qFoAp6r/yC3Hsv8xUFoTEYWnMu1lURMrnYPlHy
+lemevOPxqbVf+QY/0X+YqK2+xeVC7ypvCL8rS8A4x93OM/hS+0a2bo6d/wBEOGqEpIfI3bSm3axw
+4ZsAgkD/AA96f9vlViJLdQEkWOQiTOC2MEcc/eHpTETTkBAljwdvWYn7pyOp7GpGexbfmWI72Dt+
+86kYwevsKq6MeWXYI753lAaELGZWiDb8nIJ5xjpx/nrVe21F1gtY/KeZjCjSN8xPP0B54PXFOtlt
+InaR54jJ5juP3uQMk9s4zg4p+3Tx5e2ZF8tQilZipwOgODz+NF0HLLsJtSG/mYyS7I4VkAed9oJL
+Zzz04FRTai5jjlMZjMcxDrlgCPLY85AOPw7d6su9lIXLyxEyJsb94ORz7+5qpfJYf2fcBZEZtrOM
+ykkttIB688UaByy7Eg1JZPKufmEYhlZlU5B2lf8APPrTprmWfTblyslu8aMwK5GflPdlB/L86deW
+Ihna8gi8xWDCaD+8DjLKP73AyO/1pInsGtii3CtFKuCHmJ4I6cnIoCz6CQH/AIn9x/1zH/staOay
+7Z1fW52RgymPgg5H8NaWaUOpriNHH0X5Ds0ZpuaM1djnuOzRmm5ozRYLjs0ZpuaM0WC5NRRRUGgU
+UUUAVrj/AFv/AAEf1qW3/wBQtRXH+t/4CP61Lb/6haAGvBHPAElXcpAyM4qD+ybL/nj/AOPn/Gri
+f6tfoKpNq0C6p/Z5STzcgZwNvTPrQ0nuVGcoq0XYX+ybL/nj/wCPn/Gj+ybL/nj/AOPn/GrtRtMq
+3CQkHc6swPbAxn+Ypcq7Fe2qfzP7yt/ZNl/zx/8AHz/jR/ZNl/zx/wDHz/jV2gnAJ9KOVdg9tU/m
+f3lL+ybL/nj/AOPn/Gob3SbUWU5igJkEbbQGJOcccVft5luLeOZAQsihgD1wako5V2D2tT+Z/eZV
+xe3km9IImgEgYW7svzMy84IPADDOM+mafbaZZzRC4ZXkM+JMuQp5A7LgVNqs9rbWnmXkPnRhh8u0
+Nz64NJpeoW9/Cxto3jSMhdrADHHbBpvUhScXdMkgsLa3cvFHtYjGdxPFT+WtNjmWSSVFBzEwVs+u
+Af60QzLOjMoICuyc+oJB/lQtNgk3J3lqO8taPLWmmdRcrBg7mQuD2wCB/WpKdybIb5a0eWtOoouF
+kN8taPLWnUUXCyP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="46d9e5d6-17e6-41a4-a18a-2318e30cf6e3">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/container[2]/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container//text[@caption='SampleTable1']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="5de07a8a-af39-4517-887f-28d094b1bf34">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container/container[2]//element[@automationid='path']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="8fc81199-4658-46e2-9851-6296152308f4">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/container[2]/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container//text[@caption='']
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="71a92d45-b51b-4f4e-8796-47742d2d2156">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Report']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='Sample Table']/container/container/container[1]//element/checkbox
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f841cb11-22e8-419c-8921-0548e96e4b5f"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="0585aaaa-83cf-4746-8901-305116173b89">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Matrices']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="40f0d5bd-bcd7-44e9-b5cc-975aef196941"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="e70f2f2c-a9b2-4f61-8728-4cccc6b29475">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Matrices']//list//container[@automationid='PART_ItemsPanel']//container[@automationid='PART_CompleteHeader']/container[@automationid='PART_ItemContent']/?/?/text[1]
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="495b288a-5094-48c4-bd61-cd010d8c3549">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Matrices']//element[@automationid='PropertyGrid']/container/container[2]//list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container//element/text
+				</path>
+			</info>
+			<matchname>
+				IsReadOnly
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="bc410b13-cb25-45ba-b1c0-3b0e78a4619b">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container//container[@automationid='LayoutRoot']//element[@automationid='DockingManager']/container[@automationid='MainPanel']//container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='Numerical Formatting']/container/container//container[@automationid='Grid']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="e0f01394-8e02-448b-8473-e960ebe7a0ae">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='Numerical Formatting']//combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="99d98140-a6ca-41f0-b268-4b6995261dd6">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/?/?/list[@automationid='PART_PropertyView']/?/?/container[@caption='Report Contents']/container/container/container[1]//element/checkbox
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="769b30a4-4705-4ff2-b4ca-b8543348f3a2">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']/?/?/container[@automationid='Grid']/container//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/?/?/list[@automationid='PART_PropertyView']/?/?/container[@caption='Report Contents']/container/container/container[2]//element/checkbox
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6b801d93-9ed0-4520-b571-2413fb1c587b"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="7fc5a487-c5b4-47fb-bd80-76ef8ef50d8c">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']/?/?/container[@automationid='Grid']//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='Report Contents']/container/container/container[5]//combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="cc167fbe-7cf5-4f50-a00c-acd73e9e07b5"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="c7d8be65-0ca7-4bb4-bc09-a4ca4bf8e591">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']//list[@automationid='ViewRibbonBar']/element[@automationid='ShowNotesRibbonButton']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="fc42d9a2-55e3-4795-b9ec-a7ab254dea54"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="fbc5a8b9-57b9-498e-9165-e70842afa8a0">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/text[@automationid='NotesTextBox']/element[2]
+				</path>
+			</info>
+			<matchname>
+				IsManipulationEnabled
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a8ad1f68-8778-4d1a-b48f-603079d6a80e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="13;37">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="e109b9a1-2969-47ac-bbdc-0154e48bedde">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//list[@automationid='Ribbon']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="1197ef8e-ca43-4052-89cf-04ae30b76b16">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='BackStageContent']/list/element[2]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="211d0a66-80a7-4367-a1e6-9f0cb51d7ac7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//element[@automationid='BackStageContent']/list/element[2]/container[1]/container[1]/element[@automationid='SaveRibbonButton']/?/?/element[@automationid='InnerPath']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="54a26671-2200-4b06-86aa-6559f9bbb93e">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//element[@automationid='BackStageContent']/list/element[2]/container[1]/container[3]/element[@automationid='SaveProtocolAsRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="24a7eba3-0080-4f62-8ba9-6aca9014abe3">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//element[@automationid='BackStageContent']/list/element[2]/container[1]/container[2]/element[@automationid='SaveAsRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="701b40d1-e628-4162-8205-7cd615e0ce8a">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container//element[@automationid='BackStageContent']/list/element[2]/container[1]/container[4]/element[@automationid='ResultsNamingRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AnalysisEditXXXOperationsProtocol.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

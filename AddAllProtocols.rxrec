@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="7d84589e-d711-4835-b3b1-0f9ae12f7465"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddAllProtocols
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		False
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddAllProtocols"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c3158a49-26d0-44e1-b424-1dd3d40e425e"
+		waittimeout="5000ms"
+		waitaction="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="140bd2b8-0e58-4a34-97da-e831089661f4">
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/?/?/tabpagelist[@automationid='tabControl']/container[@automationid='TabControlGrid']//container[@automationid='LayoutRoot']/?/?/progressbar
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckItems"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="e5e04392-0725-44d4-9016-e01db1356dd3"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="11dbca60-046f-4563-bad5-c6ac85a88204"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1893"
+		sy="6"
+		loc="8;0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="407c0c6c-6a52-4186-94c8-5a67f7dfe9db">
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.MExplorer']//container[@name='GlassActive']/element[@name='RightBlurRect']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddAllProtocols.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

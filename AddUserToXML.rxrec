@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="350f281d-ee69-48b4-bcf8-30a17ae41d98"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		AddUserToXML
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddUserToXML"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="AddUser"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="78cdeb93-09ae-42cf-bd47-250decd89e7e">
+				<argument
+				argname="username"
+				id="1e6845a1-8863-40fa-9b34-f01e3c13fc1d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						testuser1
+					</argvalue>
+				</argument>
+				<argument
+				argname="group"
+				id="07ed621a-7413-4818-8069-ee54705305a7">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Unrestricted
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddUserToXML.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

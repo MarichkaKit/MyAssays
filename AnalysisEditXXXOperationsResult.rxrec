@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="99f029aa-72cb-4170-b582-4d712497a7d3"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		AnalysisEditXXXOperationsResult
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AnalysisEditXXXOperationsResult"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="3a732458-d9e8-4f22-b04e-adf338e40ed6"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="1ff8f53f-6722-4b0b-8d92-8768b8d65dfa">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='LayoutRoot']/list[@automationid='Ribbon']/list[@automationid='ReportRibbonTab']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="c54cc4fe-3a2d-43b2-b410-7832596c7622"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="173"
+		sy="86"
+		loc="35;37">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="7796841d-ed0e-40b0-a7eb-1ed0bac526a9">
+				<element
+				role="container"
+				prefcap="container"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="138,49,41,64"
+				snapElem="">
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Grid
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.Grid
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Grid
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Column"
+					type="System.Int32"
+					description="The WPF System.Windows.Controls.Grid.Column property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="ColumnSpan"
+					type="System.Int32"
+					description="The WPF System.Windows.Controls.Grid.ColumnSpan property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Grid.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsItemsHost"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.IsItemsHost property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSharedSizeScope"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.IsSharedSizeScope property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="Row"
+					type="System.Int32"
+					description="The WPF System.Windows.Controls.Grid.Row property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="RowSpan"
+					type="System.Int32"
+					description="The WPF System.Windows.Controls.Grid.RowSpan property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowGridLines"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.ShowGridLines property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Grid.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Grid.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.Grid.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Grid.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Grid.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Grid.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ZIndex"
+					type="System.Int32"
+					description="The WPF System.Windows.Controls.Grid.ZIndex property of type Int32."
+					readonly="False"/>
+					<dynamicaction
+					displayName="ShouldSerializeColumnDefinitions"
+					description="The WPF System.Windows.Controls.Grid.ShouldSerializeColumnDefinitions method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeRowDefinitions"
+					description="The WPF System.Windows.Controls.Grid.ShouldSerializeRowDefinitions method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'Results']/container//container[@automationid='LayoutRoot']/list[@automationid='Ribbon']/list[@automationid='ReportRibbonTab']/list[3]/element[2]/container
+				</path>
+			</info>
+			<helperscreenshot
+			guid="be6792c6-76ea-4821-af94-bc29e912797e">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateTemplateButtonsNotVisisble"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="410873a7-c603-4b85-bbeb-ab92dba4dd58"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateInsertHeaderFooterNotVisible"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="29e24da6-71fa-4735-a88b-06f444a20ae6"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="1457f5f5-80f9-402c-8a49-0944750da610"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="4e1ce77a-6ee0-471e-8cbc-71ec0c1a5edf">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title~'Results}$']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="FlagPoint"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="6f4626a2-dd83-4b26-aea8-14887192a50c">
+				<argument
+				argname="pointX"
+				id="8ba6a04e-1fda-4e6e-bd8b-df205b1cfd2f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointY"
+				id="5139878a-0370-47a9-99fc-a74db82b2c0a">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						0.393
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidatePointFlagState"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="10b0ce37-790e-4fad-92d0-d5b05727f81e">
+				<argument
+				argname="expectedState"
+				id="6c089470-eb4b-425c-927d-e6eb00ea750e">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						False
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointX"
+				id="69af96c7-38c3-4201-8ec2-a0a1d2b989e0">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="pointY"
+				id="cc97d820-446b-47f6-8bab-a3284e4889dc">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						0.393
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateFlagsPanelCheckboxNotExist"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4c08e431-bfc0-4ef3-af09-23e197477549"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="d3d37cef-30d5-4184-8163-66c6323825b2"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="29"
+		sy="35"
+		loc="44;35">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3e58c80e-d0ac-4963-b391-a365ecf5f006">
+				<element
+				role="list"
+				prefcap="list"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="-31991,-32000,1354,148"
+				snapElem="">
+					<attribute
+					name="automationid"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Primitives.Selector
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.Ribbon
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<dynamicattribute
+					name="ActiveColorScheme"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActiveColorScheme property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationCount"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AlternationCount property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AlternationIndex property of type Int32."/>
+					<dynamicattribute
+					name="ApplicationMenuHeader"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ApplicationMenuHeader property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="AutoPersist"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AutoPersist property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageColor"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageColor property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageCornerImageVisibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageCornerImageVisibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageHeader"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageHeader property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisplayMemberPath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DisplayMemberPath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="EnableMoreCommands"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.EnableMoreCommands property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="GroupStyleSelector"
+					type="System.Windows.Controls.GroupStyleSelector, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.GroupStyleSelector property of type GroupStyleSelector."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasItems"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HasItems property of type Boolean."/>
+					<dynamicattribute
+					name="HasVisibleContextTabGroup"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HasVisibleContextTabGroup property of type Boolean."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsAutoSizeFormEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsAutoSizeFormEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsContextTabChecked"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsContextTabChecked property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsGrouping"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsGrouping property of type Boolean."/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsQATBelow"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsQATBelow property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsQATItem"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsQATItem property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelectionActive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsSelectionActive property of type Boolean."/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchCaseSensitive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTextSearchCaseSensitive property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTextSearchEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemBindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ItemBindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ItemStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="KeyTip"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.KeyTip property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinimizeButtonVisibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinimizeButtonVisibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="RibbonBarCollapseImage"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RibbonBarCollapseImage property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="RibbonQATCommandTag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RibbonQATCommandTag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedItem property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValue"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedValue property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValuePath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedValuePath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowDefaultQATKeyTip"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowDefaultQATKeyTip property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowInMoreCommands"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowInMoreCommands property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SplitMenuKeyTip"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SplitMenuKeyTip property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabGroupLabelAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabGroupLabelAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabPanelItem"
+					type="System.Windows.Controls.Control, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabPanelItem property of type Control."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="CloseModalTabs"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.CloseModalTabs method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="DeleteRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DeleteRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="deleteFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="Dispose"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Dispose method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="HideBackStage"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HideBackStage method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="LoadRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.LoadRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="loadFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ResetQATKeyTips"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ResetQATKeyTips method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ResetRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ResetRibbonState method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="Ribbon_Click"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Ribbon_Click method.">
+						<argument
+						displayName="sender"
+						description="A method argument of type Object."
+						type="System.Object"/>
+						<argument
+						displayName="e"
+						description="A method argument of type RoutedEventArgs."
+						type="System.Windows.RoutedEventArgs, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="SaveRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SaveRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="storeFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowBackStage"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowBackStage method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowModalTab"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowModalTab method.">
+						<argument
+						displayName="ribbonTabName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?/container[1]/?/?/list[@automationid='Ribbon']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="81a37ef1-bf20-4f68-88ca-f8d285ef8a17">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?/container/container/container/element[@automationid='BackStageContent']/list/element[2]/container[@automationid='layoutRoot']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="eaf4cf0e-6a0b-4cd3-9275-7e1004273349">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='SaveRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="d63a1072-5f02-4697-8822-1c8ce2a8636d">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='BackStageContent']/list/element[2]/container[1]//element[@automationid='SaveAsRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c4c0c1aa-5515-4f44-8458-2376b93dc082"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="21de9227-59b5-44d5-946d-c47f7f9d6dd3">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='SaveProtocolAsRibbonButton']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AnalysisEditXXXOperationsResult.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

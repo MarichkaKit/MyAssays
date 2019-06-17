@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="42e9b33a-0dd0-45b9-a9f4-573c1981fbec"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		BestFitFit_MethodsPropertyEditor
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BestFitFit_MethodsPropertyEditor"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="OpenPropertiesEditor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="9c6b0820-47ec-4aba-be70-eda450b91592"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectTransform"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="fe7fbfd8-d1fd-44c8-a1ab-046b2a0e511c">
+				<argument
+				argname="index"
+				id="c4c6cc2c-3642-4a1a-a645-a9e83eef03d9">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Set_Value_FitMethod_cb"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="073bd8c7-e708-4903-86a6-26f4a3f0c84f">
+				<argument
+				argname="index"
+				id="9ef74145-28b6-454c-bfee-32e3600ec1e4">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						3
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="67603ba6-5996-4445-84af-79ffb087ec3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d97791f4-01c1-4f72-8044-8cf5f65056e4">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']/container/container[2]//list[@automationid='PART_PropertyView']/?/?/container[@caption='Fit']/container/container/container[3]/?/?/container/?/?/combobox
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="UncheckAllItems"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="2263b00c-130b-49c2-ac8f-41ac7f42f79a">
+				<argument
+				argname="adapter"
+				id="59d6ab09-9acd-43b4-953a-c9944ffb9ac3">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="233786e4-f425-41cf-98d0-fdc31cdfe0fd">
+						<element
+						role="container"
+						prefcap="container"
+						capabilities="wpfelement"
+						flavor="wpf"
+						visible="False"
+						valid="True"
+						enabled="True"
+						hasfocus="False"
+						dontcache="False"
+						index="0"
+						rect="-1,-1,0,0"
+						snapElem="">
+							<attribute
+							name="basetype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="fulltype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="type"
+							type="System.String">
+								StackPanel
+							</attribute>
+							<dynamicattribute
+							name="ActualHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualHeight property of type Double."/>
+							<dynamicattribute
+							name="ActualWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualWidth property of type Double."/>
+							<dynamicattribute
+							name="AllowDrop"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.AllowDrop property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Background"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Background property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="BindingGroup"
+							type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BindingGroup property of type BindingGroup."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffect"
+							type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffect property of type BitmapEffect."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffectInput"
+							type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffectInput property of type BitmapEffectInput."
+							readonly="False"/>
+							<dynamicattribute
+							name="CacheMode"
+							type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.CacheMode property of type CacheMode."
+							readonly="False"/>
+							<dynamicattribute
+							name="Clip"
+							type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Clip property of type Geometry."
+							readonly="False"/>
+							<dynamicattribute
+							name="ClipToBounds"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ClipToBounds property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ContextMenu"
+							type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.ContextMenu property of type ContextMenu."
+							readonly="False"/>
+							<dynamicattribute
+							name="DataContext"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.DataContext property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Effect"
+							type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Effect property of type Effect."
+							readonly="False"/>
+							<dynamicattribute
+							name="FlowDirection"
+							type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.FlowDirection property of type FlowDirection."
+							readonly="False"/>
+							<dynamicattribute
+							name="Focusable"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.Focusable property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ForceCursor"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ForceCursor property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Height"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Height property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="HorizontalAlignment"
+							type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.HorizontalAlignment property of type HorizontalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHitTestVisible"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsHitTestVisible property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsItemsHost"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsItemsHost property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsManipulationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsManipulationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="LayoutTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.LayoutTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Opacity"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Opacity property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="OpacityMask"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.OpacityMask property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="Orientation"
+							type="System.Windows.Controls.Orientation, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Orientation property of type Orientation."
+							readonly="False"/>
+							<dynamicattribute
+							name="OverridesDefaultStyle"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.OverridesDefaultStyle property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransformOrigin"
+							type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransformOrigin property of type Point."
+							readonly="False"/>
+							<dynamicattribute
+							name="SnapsToDevicePixels"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.SnapsToDevicePixels property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Tag"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.Tag property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="ToolTip"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.ToolTip property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Uid"
+							type="System.String"
+							description="The WPF System.Windows.Controls.StackPanel.Uid property of type String."
+							weight="150"
+							readonly="False"/>
+							<dynamicattribute
+							name="UseLayoutRounding"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.UseLayoutRounding property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="VerticalAlignment"
+							type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.VerticalAlignment property of type VerticalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="Visibility"
+							type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Visibility property of type Visibility."
+							readonly="False"/>
+							<dynamicattribute
+							name="Width"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Width property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="ZIndex"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.StackPanel.ZIndex property of type Int32."
+							readonly="False"/>
+							<dynamicaction
+							displayName="LineDown"
+							description="The WPF System.Windows.Controls.StackPanel.LineDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineLeft"
+							description="The WPF System.Windows.Controls.StackPanel.LineLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineRight"
+							description="The WPF System.Windows.Controls.StackPanel.LineRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineUp"
+							description="The WPF System.Windows.Controls.StackPanel.LineUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MakeVisible"
+							description="The WPF System.Windows.Controls.StackPanel.MakeVisible method.">
+								<argument
+								displayName="visual"
+								description="A method argument of type Visual."
+								type="System.Windows.Media.Visual, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<argument
+								displayName="rectangle"
+								description="A method argument of type Rect."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelDown"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelLeft"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelRight"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelUp"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageDown"
+							description="The WPF System.Windows.Controls.StackPanel.PageDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageLeft"
+							description="The WPF System.Windows.Controls.StackPanel.PageLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageRight"
+							description="The WPF System.Windows.Controls.StackPanel.PageRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageUp"
+							description="The WPF System.Windows.Controls.StackPanel.PageUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetHorizontalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetHorizontalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetVerticalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetVerticalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+						</element>
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Fits']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckDisableToCheckAtLeastLastCheckbox"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="f7d6b93a-21f7-43c8-99f8-585c7dae33ee">
+				<argument
+				argname="adapter"
+				id="e2701816-8fce-4f66-9965-a4801e16d30e">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="233786e4-f425-41cf-98d0-fdc31cdfe0fd">
+						<element
+						role="container"
+						prefcap="container"
+						capabilities="wpfelement"
+						flavor="wpf"
+						visible="False"
+						valid="True"
+						enabled="True"
+						hasfocus="False"
+						dontcache="False"
+						index="0"
+						rect="-1,-1,0,0"
+						snapElem="">
+							<attribute
+							name="basetype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="fulltype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="type"
+							type="System.String">
+								StackPanel
+							</attribute>
+							<dynamicattribute
+							name="ActualHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualHeight property of type Double."/>
+							<dynamicattribute
+							name="ActualWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualWidth property of type Double."/>
+							<dynamicattribute
+							name="AllowDrop"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.AllowDrop property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Background"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Background property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="BindingGroup"
+							type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BindingGroup property of type BindingGroup."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffect"
+							type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffect property of type BitmapEffect."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffectInput"
+							type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffectInput property of type BitmapEffectInput."
+							readonly="False"/>
+							<dynamicattribute
+							name="CacheMode"
+							type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.CacheMode property of type CacheMode."
+							readonly="False"/>
+							<dynamicattribute
+							name="Clip"
+							type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Clip property of type Geometry."
+							readonly="False"/>
+							<dynamicattribute
+							name="ClipToBounds"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ClipToBounds property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ContextMenu"
+							type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.ContextMenu property of type ContextMenu."
+							readonly="False"/>
+							<dynamicattribute
+							name="DataContext"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.DataContext property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Effect"
+							type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Effect property of type Effect."
+							readonly="False"/>
+							<dynamicattribute
+							name="FlowDirection"
+							type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.FlowDirection property of type FlowDirection."
+							readonly="False"/>
+							<dynamicattribute
+							name="Focusable"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.Focusable property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ForceCursor"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ForceCursor property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Height"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Height property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="HorizontalAlignment"
+							type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.HorizontalAlignment property of type HorizontalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHitTestVisible"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsHitTestVisible property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsItemsHost"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsItemsHost property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsManipulationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsManipulationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="LayoutTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.LayoutTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Opacity"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Opacity property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="OpacityMask"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.OpacityMask property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="Orientation"
+							type="System.Windows.Controls.Orientation, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Orientation property of type Orientation."
+							readonly="False"/>
+							<dynamicattribute
+							name="OverridesDefaultStyle"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.OverridesDefaultStyle property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransformOrigin"
+							type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransformOrigin property of type Point."
+							readonly="False"/>
+							<dynamicattribute
+							name="SnapsToDevicePixels"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.SnapsToDevicePixels property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Tag"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.Tag property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="ToolTip"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.ToolTip property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Uid"
+							type="System.String"
+							description="The WPF System.Windows.Controls.StackPanel.Uid property of type String."
+							weight="150"
+							readonly="False"/>
+							<dynamicattribute
+							name="UseLayoutRounding"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.UseLayoutRounding property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="VerticalAlignment"
+							type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.VerticalAlignment property of type VerticalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="Visibility"
+							type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Visibility property of type Visibility."
+							readonly="False"/>
+							<dynamicattribute
+							name="Width"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Width property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="ZIndex"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.StackPanel.ZIndex property of type Int32."
+							readonly="False"/>
+							<dynamicaction
+							displayName="LineDown"
+							description="The WPF System.Windows.Controls.StackPanel.LineDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineLeft"
+							description="The WPF System.Windows.Controls.StackPanel.LineLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineRight"
+							description="The WPF System.Windows.Controls.StackPanel.LineRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineUp"
+							description="The WPF System.Windows.Controls.StackPanel.LineUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MakeVisible"
+							description="The WPF System.Windows.Controls.StackPanel.MakeVisible method.">
+								<argument
+								displayName="visual"
+								description="A method argument of type Visual."
+								type="System.Windows.Media.Visual, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<argument
+								displayName="rectangle"
+								description="A method argument of type Rect."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelDown"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelLeft"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelRight"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelUp"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageDown"
+							description="The WPF System.Windows.Controls.StackPanel.PageDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageLeft"
+							description="The WPF System.Windows.Controls.StackPanel.PageLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageRight"
+							description="The WPF System.Windows.Controls.StackPanel.PageRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageUp"
+							description="The WPF System.Windows.Controls.StackPanel.PageUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetHorizontalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetHorizontalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetVerticalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetVerticalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+						</element>
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Fits']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="UncheckAllItems"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="2263b00c-130b-49c2-ac8f-41ac7f42f79a">
+				<argument
+				argname="adapter"
+				id="59d6ab09-9acd-43b4-953a-c9944ffb9ac3">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="94cdf4a9-0ed2-47db-9588-903ebf8ffda2">
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Weighting']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckDisableToCheckAtLeastLastCheckbox"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="f7d6b93a-21f7-43c8-99f8-585c7dae33ee">
+				<argument
+				argname="adapter"
+				id="e2701816-8fce-4f66-9965-a4801e16d30e">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="94cdf4a9-0ed2-47db-9588-903ebf8ffda2">
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Weighting']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="67603ba6-5996-4445-84af-79ffb087ec3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d97791f4-01c1-4f72-8044-8cf5f65056e4">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']/container/container[2]//list[@automationid='PART_PropertyView']/?/?/container[@caption='Fit']/container/container/container[3]/?/?/container/?/?/combobox
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="72593e5c-0e71-40dd-8351-ec0830d24b5f"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b676014a-ac63-4c92-8fcf-d40c9bc02f47">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='XML']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckXML_Text"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0658dbe0-3efb-4cf0-86a7-710aec026d7b">
+				<argument
+				argname="expectedFile"
+				id="d30be5d3-4cc6-4560-a9d0-e2f195aa3c5c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						BestFitMethod_LinerY2.txt
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="268e9701-9ce8-4b91-a7a0-5de2a82e903b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="9adbd187-d3bb-4653-a753-2c5383fd7842">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='Transforms']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="67603ba6-5996-4445-84af-79ffb087ec3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d97791f4-01c1-4f72-8044-8cf5f65056e4">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']/container/container[2]//list[@automationid='PART_PropertyView']/?/?/container[@caption='Fit']/container/container/container[3]/?/?/container/?/?/combobox
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckAllItems"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c9bf4ff9-cf98-4334-9cba-fa2a5a5e5fbd">
+				<argument
+				argname="adapter"
+				id="ef475a6a-542b-4139-8f1c-79577664de12">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="233786e4-f425-41cf-98d0-fdc31cdfe0fd">
+						<element
+						role="container"
+						prefcap="container"
+						capabilities="wpfelement"
+						flavor="wpf"
+						visible="False"
+						valid="True"
+						enabled="True"
+						hasfocus="False"
+						dontcache="False"
+						index="0"
+						rect="-1,-1,0,0"
+						snapElem="">
+							<attribute
+							name="basetype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="fulltype"
+							type="System.String">
+								System.Windows.Controls.StackPanel
+							</attribute>
+							<attribute
+							name="type"
+							type="System.String">
+								StackPanel
+							</attribute>
+							<dynamicattribute
+							name="ActualHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualHeight property of type Double."/>
+							<dynamicattribute
+							name="ActualWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.ActualWidth property of type Double."/>
+							<dynamicattribute
+							name="AllowDrop"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.AllowDrop property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Background"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Background property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="BindingGroup"
+							type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BindingGroup property of type BindingGroup."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffect"
+							type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffect property of type BitmapEffect."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffectInput"
+							type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.BitmapEffectInput property of type BitmapEffectInput."
+							readonly="False"/>
+							<dynamicattribute
+							name="CacheMode"
+							type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.CacheMode property of type CacheMode."
+							readonly="False"/>
+							<dynamicattribute
+							name="Clip"
+							type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Clip property of type Geometry."
+							readonly="False"/>
+							<dynamicattribute
+							name="ClipToBounds"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ClipToBounds property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ContextMenu"
+							type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.ContextMenu property of type ContextMenu."
+							readonly="False"/>
+							<dynamicattribute
+							name="DataContext"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.DataContext property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Effect"
+							type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Effect property of type Effect."
+							readonly="False"/>
+							<dynamicattribute
+							name="FlowDirection"
+							type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.FlowDirection property of type FlowDirection."
+							readonly="False"/>
+							<dynamicattribute
+							name="Focusable"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.Focusable property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ForceCursor"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.ForceCursor property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Height"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Height property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="HorizontalAlignment"
+							type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.HorizontalAlignment property of type HorizontalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHitTestVisible"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsHitTestVisible property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsItemsHost"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsItemsHost property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsManipulationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.IsManipulationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="LayoutTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.LayoutTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MaxWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.MinWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Opacity"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Opacity property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="OpacityMask"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.OpacityMask property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="Orientation"
+							type="System.Windows.Controls.Orientation, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Orientation property of type Orientation."
+							readonly="False"/>
+							<dynamicattribute
+							name="OverridesDefaultStyle"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.OverridesDefaultStyle property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransformOrigin"
+							type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.RenderTransformOrigin property of type Point."
+							readonly="False"/>
+							<dynamicattribute
+							name="SnapsToDevicePixels"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.SnapsToDevicePixels property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Tag"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.Tag property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="ToolTip"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.StackPanel.ToolTip property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Uid"
+							type="System.String"
+							description="The WPF System.Windows.Controls.StackPanel.Uid property of type String."
+							weight="150"
+							readonly="False"/>
+							<dynamicattribute
+							name="UseLayoutRounding"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.StackPanel.UseLayoutRounding property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="VerticalAlignment"
+							type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.VerticalAlignment property of type VerticalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="Visibility"
+							type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.StackPanel.Visibility property of type Visibility."
+							readonly="False"/>
+							<dynamicattribute
+							name="Width"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.StackPanel.Width property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="ZIndex"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.StackPanel.ZIndex property of type Int32."
+							readonly="False"/>
+							<dynamicaction
+							displayName="LineDown"
+							description="The WPF System.Windows.Controls.StackPanel.LineDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineLeft"
+							description="The WPF System.Windows.Controls.StackPanel.LineLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineRight"
+							description="The WPF System.Windows.Controls.StackPanel.LineRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="LineUp"
+							description="The WPF System.Windows.Controls.StackPanel.LineUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MakeVisible"
+							description="The WPF System.Windows.Controls.StackPanel.MakeVisible method.">
+								<argument
+								displayName="visual"
+								description="A method argument of type Visual."
+								type="System.Windows.Media.Visual, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<argument
+								displayName="rectangle"
+								description="A method argument of type Rect."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Windows.Rect, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelDown"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelLeft"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelRight"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="MouseWheelUp"
+							description="The WPF System.Windows.Controls.StackPanel.MouseWheelUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageDown"
+							description="The WPF System.Windows.Controls.StackPanel.PageDown method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageLeft"
+							description="The WPF System.Windows.Controls.StackPanel.PageLeft method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageRight"
+							description="The WPF System.Windows.Controls.StackPanel.PageRight method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="PageUp"
+							description="The WPF System.Windows.Controls.StackPanel.PageUp method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetHorizontalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetHorizontalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="SetVerticalOffset"
+							description="The WPF System.Windows.Controls.StackPanel.SetVerticalOffset method.">
+								<argument
+								displayName="offset"
+								description="A method argument of type Double."
+								type="System.Double"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Void"/>
+							</dynamicaction>
+						</element>
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Fits']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckAllItems"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c9bf4ff9-cf98-4334-9cba-fa2a5a5e5fbd">
+				<argument
+				argname="adapter"
+				id="ef475a6a-542b-4139-8f1c-79577664de12">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="94cdf4a9-0ed2-47db-9588-903ebf8ffda2">
+						<path>
+							/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']//container[@caption='Fit']//list[@name='Weighting']/container[1]
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="67603ba6-5996-4445-84af-79ffb087ec3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d97791f4-01c1-4f72-8044-8cf5f65056e4">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@automationid='TransformsTab']//element[@automationid='PropertyGrid']/container/container[2]//list[@automationid='PART_PropertyView']/?/?/container[@caption='Fit']/container/container/container[3]/?/?/container/?/?/combobox
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="72593e5c-0e71-40dd-8351-ec0830d24b5f"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b676014a-ac63-4c92-8fcf-d40c9bc02f47">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='XML']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckXML_Text"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0658dbe0-3efb-4cf0-86a7-710aec026d7b">
+				<argument
+				argname="expectedFile"
+				id="d30be5d3-4cc6-4560-a9d0-e2f195aa3c5c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						BestFitMethod_AllAll.txt
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BestFitFit_MethodsPropertyEditor.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

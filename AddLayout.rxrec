@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="2afd9bb2-a2c9-4699-9ba6-cf36a624edc9"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddLayout
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddLayout"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables>
+		<var
+		name="layout"
+		id="3afb854b-e95b-444b-9801-de4dcf754c99">
+			layout.assay-samplelayout
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="DeleteAllUserLayouts"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4a36597b-4ba5-4968-bcfd-892cd4aec9a7"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="AddCustomLayout"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="c86a3982-4acb-448d-b95f-a7833d5733d9"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddLayout.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
