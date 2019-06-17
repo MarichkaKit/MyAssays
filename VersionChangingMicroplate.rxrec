@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="83e3da18-fe8b-4218-be6c-4ac72b62bbf2"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		VersionChangingMicroplate
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VersionChangingMicroplate"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectListItem"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="cf469d62-6b78-4a9f-a3dc-cc9984a721b2">
+				<argument
+				argname="num"
+				id="a0285a60-b71a-473f-88df-ca8b49cbacad">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectVersion"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="93887221-d509-4cc0-88cb-a23c5106fead">
+				<argument
+				argname="num"
+				id="20bd05ba-0faf-43df-b211-80192ac71a24">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="True"
+		searchpropertyid="3ab2ab75-37a9-42fc-ae91-4e3e8cef288b"
+		action="AttributeNotContains">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b2a53fb0-93fd-42dd-9c44-87f8502831d2">
+				<element
+				role="combobox"
+				prefcap="combobox"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="401,84,100,24"
+				snapElem="">
+					<attribute
+					name="dropdownvisible"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selecteditemindex"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="selecteditemtext"
+					type="System.String">
+						Version 2
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Version 2
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.ComboBox
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.RibbonComboBox
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						RibbonComboBox
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationCount"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AlternationCount property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AlternationIndex property of type Int32."/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisplayMemberPath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.DisplayMemberPath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="GroupStyleSelector"
+					type="System.Windows.Controls.GroupStyleSelector, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.GroupStyleSelector property of type GroupStyleSelector."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasItems"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HasItems property of type Boolean."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsDropDownOpen"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsDropDownOpen property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsEditable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsEditable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsGrouping"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsGrouping property of type Boolean."/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsReadOnly"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsReadOnly property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelectionActive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsSelectionActive property of type Boolean."/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchCaseSensitive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTextSearchCaseSensitive property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTextSearchEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemBindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemBindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemForItemContainer"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemForItemContainer property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Label"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Label property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxDropDownHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxDropDownHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedItem property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValue"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedValue property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValuePath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedValuePath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectionBoxItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectionBoxItem property of type Object."/>
+					<dynamicattribute
+					name="SelectionBoxItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectionBoxItemStringFormat property of type String."/>
+					<dynamicattribute
+					name="ShouldPreserveUserEnteredPrefix"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ShouldPreserveUserEnteredPrefix property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SmallIcon"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SmallIcon property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="StaysOpenOnEdit"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.StaysOpenOnEdit property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/container[1]/list/list[1]/list[5]/combobox
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				(pending)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="True"
+		searchpropertyid="3ab2ab75-37a9-42fc-ae91-4e3e8cef288b"
+		action="AttributeContains">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b2a53fb0-93fd-42dd-9c44-87f8502831d2">
+				<element
+				role="combobox"
+				prefcap="combobox"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="401,84,100,24"
+				snapElem="">
+					<attribute
+					name="dropdownvisible"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selecteditemindex"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="selecteditemtext"
+					type="System.String">
+						Version 2
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Version 2
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.ComboBox
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.RibbonComboBox
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						RibbonComboBox
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationCount"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AlternationCount property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.AlternationIndex property of type Int32."/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisplayMemberPath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.DisplayMemberPath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="GroupStyleSelector"
+					type="System.Windows.Controls.GroupStyleSelector, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.GroupStyleSelector property of type GroupStyleSelector."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasItems"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HasItems property of type Boolean."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsDropDownOpen"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsDropDownOpen property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsEditable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsEditable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsGrouping"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsGrouping property of type Boolean."/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsReadOnly"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsReadOnly property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelectionActive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsSelectionActive property of type Boolean."/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchCaseSensitive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTextSearchCaseSensitive property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.IsTextSearchEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemBindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemBindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemForItemContainer"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemForItemContainer property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ItemStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Label"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Label property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxDropDownHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxDropDownHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedItem property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValue"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedValue property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValuePath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectedValuePath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectionBoxItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectionBoxItem property of type Object."/>
+					<dynamicattribute
+					name="SelectionBoxItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SelectionBoxItemStringFormat property of type String."/>
+					<dynamicattribute
+					name="ShouldPreserveUserEnteredPrefix"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ShouldPreserveUserEnteredPrefix property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SmallIcon"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SmallIcon property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="StaysOpenOnEdit"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.StaysOpenOnEdit property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.RibbonComboBox.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/container[1]/list/list[1]/list[5]/combobox
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Version 2
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VersionChangingMicroplate.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

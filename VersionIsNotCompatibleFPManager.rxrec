@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="9490a8c6-9795-4943-b4dc-0adaaf470822"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		VersionIsNotCompatibleFPManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VersionIsNotCompatibleFPManager"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables>
+		<var
+		name="assemblyName"
+		id="b83353f1-5005-48bf-a1f7-d888d706a528">
+		</var>
+		<var
+		name="extention"
+		id="9add4ba5-5546-4e0e-abdd-b07641121eb9">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="renameAssembly"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ca9d3965-349c-4f39-87f6-1029427e36a7">
+				<argument
+				argname="invert"
+				id="7b7b0997-f3bf-4853-b41e-254237cf79b8">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						False
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="10000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="22007c7d-ac4a-4652-8711-051edaaf9f97"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a14860f0-4b56-446c-bada-2277f413b73d">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container[1]/text[2]
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkMessage"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="da4f58c5-73a6-48b5-b845-2b967f876e42">
+				<argument
+				argname="adapter"
+				id="4c165ee4-5e79-45f4-87db-3e9ba38ddc90">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="a14860f0-4b56-446c-bada-2277f413b73d">
+						<path>
+							/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container[1]/text[2]
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="6287e566-9843-4c58-9a5b-97fa35a27d03">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						An earlier version of Folder Poll is currently installed. Please uninstall and install the latest version from http://www.myassays.com/folder-poll to continue.
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="227fe9d1-c29a-4ed7-9c01-3ae243cb9f5e"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b81d8677-6933-406b-970c-f7d0f6387271">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="432,404,516,30"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						After installing Folder Poll, press&#32;
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						After installing Folder Poll, press&#32;
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container/element/text[@caption~'^After\ installing\ Folder\ P']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkMessage"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="da4f58c5-73a6-48b5-b845-2b967f876e42">
+				<argument
+				argname="adapter"
+				id="4c165ee4-5e79-45f4-87db-3e9ba38ddc90">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="b81d8677-6933-406b-970c-f7d0f6387271">
+						<element
+						role="text"
+						prefcap="text"
+						capabilities="wpfelement"
+						flavor="wpf"
+						visible="True"
+						valid="True"
+						enabled="True"
+						hasfocus="False"
+						dontcache="False"
+						index="0"
+						rect="432,404,516,30"
+						snapElem="">
+							<attribute
+							name="caption"
+							type="System.String">
+								After installing Folder Poll, press&#32;
+							</attribute>
+							<attribute
+							name="text"
+							type="System.String">
+								After installing Folder Poll, press&#32;
+							</attribute>
+							<attribute
+							name="basetype"
+							type="System.String">
+								System.Windows.Controls.TextBlock
+							</attribute>
+							<attribute
+							name="fulltype"
+							type="System.String">
+								System.Windows.Controls.TextBlock
+							</attribute>
+							<attribute
+							name="type"
+							type="System.String">
+								TextBlock
+							</attribute>
+							<dynamicattribute
+							name="ActualHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+							<dynamicattribute
+							name="ActualWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+							<dynamicattribute
+							name="AllowDrop"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Background"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="BaselineOffset"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="BindingGroup"
+							type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffect"
+							type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffectInput"
+							type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+							readonly="False"/>
+							<dynamicattribute
+							name="CacheMode"
+							type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+							readonly="False"/>
+							<dynamicattribute
+							name="Clip"
+							type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+							readonly="False"/>
+							<dynamicattribute
+							name="ClipToBounds"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ContextMenu"
+							type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+							readonly="False"/>
+							<dynamicattribute
+							name="DataContext"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Effect"
+							type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+							readonly="False"/>
+							<dynamicattribute
+							name="FlowDirection"
+							type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+							readonly="False"/>
+							<dynamicattribute
+							name="Focusable"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="FontSize"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="ForceCursor"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Foreground"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="Height"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="HorizontalAlignment"
+							type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHitTestVisible"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHyphenationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsManipulationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="LayoutTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="LineHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="LineStackingStrategy"
+							type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Opacity"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="OpacityMask"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="OverridesDefaultStyle"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransformOrigin"
+							type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+							readonly="False"/>
+							<dynamicattribute
+							name="SnapsToDevicePixels"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Tag"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="TextAlignment"
+							type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="TextDecorations"
+							type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+							readonly="False"/>
+							<dynamicattribute
+							name="TextEffects"
+							type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+							readonly="False"/>
+							<dynamicattribute
+							name="TextTrimming"
+							type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+							readonly="False"/>
+							<dynamicattribute
+							name="TextWrapping"
+							type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+							readonly="False"/>
+							<dynamicattribute
+							name="ToolTip"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Uid"
+							type="System.String"
+							description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+							weight="150"
+							readonly="False"/>
+							<dynamicattribute
+							name="UseLayoutRounding"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="VerticalAlignment"
+							type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="Width"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Visibility"
+							type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+							readonly="False"/>
+							<dynamicaction
+							displayName="GetPositionFromPoint"
+							description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+								<argument
+								displayName="point"
+								description="A method argument of type Point."
+								type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<argument
+								displayName="snapToText"
+								description="A method argument of type Boolean."
+								type="System.Boolean"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="ShouldSerializeBaselineOffset"
+							description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Boolean"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="ShouldSerializeInlines"
+							description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+								<argument
+								displayName="manager"
+								description="A method argument of type XamlDesignerSerializationManager."
+								type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Boolean"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="ShouldSerializeText"
+							description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Boolean"/>
+							</dynamicaction>
+						</element>
+						<path>
+							/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container/element/text[@caption~'^After\ installing\ Folder\ P']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="6287e566-9843-4c58-9a5b-97fa35a27d03">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						After installing Folder Poll, press Back (button below) and then Next to continue, preserving your settings.
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="19908d6b-5ce4-42e9-bf66-f1efb0479cb7"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="5d3a2959-2e58-4154-94c1-592f6a9272a4">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/container[1]/button[@text='Back']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="renameAssembly"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ca9d3965-349c-4f39-87f6-1029427e36a7">
+				<argument
+				argname="invert"
+				id="7b7b0997-f3bf-4853-b41e-254237cf79b8">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						True
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9d285b5d-a74c-4df7-81d3-b6488a225495"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a77a4c40-f4c3-4840-ab83-75fa095f71ae">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/container[1]/?/?/button[@text='Next']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="waitForImport"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="557e77b8-1b5e-4e38-be48-66d80feea733"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9d285b5d-a74c-4df7-81d3-b6488a225495"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a77a4c40-f4c3-4840-ab83-75fa095f71ae">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/container[1]/?/?/button[@text='Next']
+				</path>
+			</info>
+		</mouseitem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8f3653a1-1d11-4ce4-8ee4-b729eefc056c"
+		attrname="Checked">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d6973d36-52a1-4599-80fc-11e606ed492f">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container/container[2]/checkbox[1]
+				</path>
+			</info>
+			<AttributeValue>
+				True
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="246677f0-5c38-4325-8ed7-9c8fa9075370"
+		attrname="Checked">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="20b06bdb-d7bb-41d1-a48d-595a3b5d4d07">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/element/container/container/container/container[2]/checkbox[2]
+				</path>
+			</info>
+			<AttributeValue>
+				True
+			</AttributeValue>
+		</setvaluerecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="5ce8681d-b683-48f8-898e-7edb1b184155"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a2cdc706-4522-4e9e-a98e-7afe00167297">
+				<path>
+					/form[@wpfnative='True' and @title='Import Wizard' and @processname='MyAssays.Desktop.Analysis']/element/container/container[1]/?/?/button[@text='Finish']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="waitForImport"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="557e77b8-1b5e-4e38-be48-66d80feea733"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="waitForImport"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="557e77b8-1b5e-4e38-be48-66d80feea733"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="waitForImport"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="557e77b8-1b5e-4e38-be48-66d80feea733"/>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="00ec4d95-4199-4f49-b6ab-540b0b18d4ce"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="4e1ce77a-6ee0-471e-8cbc-71ec0c1a5edf">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/?/?/tabpagelist[@automationid='SectionsTabControl']/?/?/container[@automationid='HeaderPanel']/?/?/container[@automationid='PART_TabLayoutPanel']/tabpage[@title~'Results}$']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d80a89f5-4f4b-4fd0-849c-d8e3c3df03b4"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="4e1ce77a-6ee0-471e-8cbc-71ec0c1a5edf">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']//tabpagelist[@automationid='AttachName1']/?/?/container[@automationid='HeaderPanel']/?/?/container[@automationid='PART_TabLayoutPanel']/tabpage[@title~'^ByRef&lt;ResultConfigSection']
+				</path>
+			</info>
+			<matchname>
+				Selected
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="35b22cd6-30a2-4225-9182-53b267cc63d6"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="e0bd7dd5-7634-45c7-aa17-57da0fb67604">
+				<path>
+					/form[@wpfnative='True' and @title='Folder Poll Manager' and @processname='FolderPoll.Manager']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VersionIsNotCompatibleFPManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

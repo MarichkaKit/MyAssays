@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="c3f28e4e-efae-43a2-8c5a-340fff45cbf9"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		X_Axis_KineticWithTimes
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="X_Axis_KineticWithTimes"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="OpenPropertyEditor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="12d4fab6-372a-41c7-935d-eb9829b03aa1"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="CheckTransformsParameters"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="29218293-2348-4b87-9623-8c58d3d9a7b7"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="21b6d8d0-9a38-4441-b7ea-f744c6112416"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="9b3ec890-cfbe-49c5-a75d-675585987c39">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='CalculateRibbonButton']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="waitForCalculation"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="bec1a142-50b5-4b65-acf3-f21820373407"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="ad0ecb86-da4f-45a2-b287-98e79d31966f"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="f0d2ca6d-5232-44f2-a4f5-bf3c9f572ded">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//list[@automationid='Ribbon']/list[@automationid='HomeRibbonTab']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="06e89655-f8da-45c5-b7f0-64cb9f4bd33a"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="f7f0450d-5542-4849-b440-828a5c07f86f">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//element[@automationid='ShowPropertiesRibbonButton']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="15ff4fab-317b-4547-b180-79e8e2200ec9"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="14311a5c-ac95-4b3a-a73a-c046009212fa">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='XY Reduction X At Y (Kinetic 1 -&gt; X)'][1]
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ba981ff-472b-412f-b768-4e529c556c02"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6853b983-ead2-403f-8fc8-7f32e55392dc">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='PART_AxisCanvas']//text[@text~'Time'][1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Time (seconds)
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="65834712-81c0-4980-9f97-5d1cb2eb0090"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6f4544b7-78d8-4b4a-adb4-0d5f886a6ca0">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='XY Reduction X At Y (Kinetic 2 -&gt; Calc2)'][1]
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ba981ff-472b-412f-b768-4e529c556c02"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6853b983-ead2-403f-8fc8-7f32e55392dc">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='PART_AxisCanvas']//text[@text~'Time'][1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Time (minutes)
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="2c1700b3-468d-4e99-90c7-303b76481ef0"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="-31227"
+		sy="-31754"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="73c0a292-5d6d-47c7-a243-7fda75eda64e">
+				<element
+				role="tabpage"
+				prefcap="tabpage"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="-31353,-31765,252,22"
+				snapElem="">
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						XY Reduction X At Y (Kinetic 3 -&gt; Calc3)
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TabItem
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.TabItemExt
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TabItemExt
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Content"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Content property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContentStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ContentStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasContent"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HasContent property of type Boolean."/>
+					<dynamicattribute
+					name="HasHeader"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HasHeader property of type Boolean."/>
+					<dynamicattribute
+					name="Header"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Header property of type Object."
+					weight="107"
+					readonly="False"/>
+					<dynamicattribute
+					name="HeaderStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HeaderStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HoverBackground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.HoverBackground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="ImageHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ImageHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ImageWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ImageWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsMSDictionaryMerged"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsMSDictionaryMerged property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTabEditing"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsTabEditing property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemForItemContainer"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ItemForItemContainer property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ItemToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabStripPlacement"
+					type="System.Windows.Controls.Dock, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.TabStripPlacement property of type Dock."/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseCustomEditableTemplate"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.UseCustomEditableTemplate property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ZIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.ZIndex property of type Int32."
+					readonly="False"/>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.TabItemExt.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//tabpage[@title='XY Reduction X At Y (Kinetic 3 -&gt; Calc3)'][1]
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ba981ff-472b-412f-b768-4e529c556c02"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6853b983-ead2-403f-8fc8-7f32e55392dc">
+				<path>
+					/form[@wpfnative='True' and @title&gt;'Results' and @processname='MyAssays.Desktop.Analysis']/?//container[@automationid='PART_AxisCanvas']//text[@text~'Time'][1]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Time (hours)
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		X_Axis_KineticWithTimes.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

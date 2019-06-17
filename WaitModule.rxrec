@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="e6dfa8ba-2e22-4cff-a714-7d1735ef8624"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		WaitModule
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WaitModule"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables>
+		<var
+		name="timeout"
+		id="c660756b-7b6c-4441-8a82-01a04e9aa875">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="TestDelay"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="02392637-d8b2-4b94-89bc-59a93baff5fc">
+				<argument
+				variable="timeout"
+				argname="timeout"
+				id="d4f774dc-1a5f-48cf-8c07-b11c6f6ece6c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue/>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WaitModule.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

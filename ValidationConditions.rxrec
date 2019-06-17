@@ -1,0 +1,2244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="6209fb90-1014-4c64-a592-25d99fb27fc7"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ValidationConditions
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidationConditions"
+	namespace="MyAssays.Wizard.RanorexTests"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="RunAnalysis"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a6e94971-67c9-4303-a139-7a07316779cd">
+				<argument
+				argname="protocolName"
+				id="577ee834-a39f-48c0-8678-a390aac958a3">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Matrix Transform Kinetics 12x8.assay-protocol
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="OpenPropertyEditor"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="12d4fab6-372a-41c7-935d-eb9829b03aa1"/>
+		</userrecorditem>
+		<loggingrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1a3f2d45-35b2-4965-b9c4-0d5f5ea95ae8"
+		action="Screenshot"
+		category="User"
+		message=""
+		reportlevel="Info;20">
+			<comment/>
+			<bindings/>
+		</loggingrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="26ebfdb3-47b3-45ca-b872-4dba502bc600"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="02e3e57e-1bd3-4a2c-afab-513d99356e3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="5d0865f5-c0fe-4040-84bf-c29d7b563d70">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']//button[@text='Add']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectValidationIem"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="51f7b798-f0a7-47a7-81cf-551db9938776">
+				<argument
+				argname="index"
+				id="db61d635-0643-499c-9a27-a472652fec14">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="433d5bf0-4e29-439c-9510-b38012980796"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6eba6663-8acf-4f2e-85f8-6b1b533df37a">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']/container[1]/container/container[1]/container[2]/container/container[1]/container/button[@text='Add']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="765c11e8-d519-4163-b99c-65f04345c8ee">
+				<argument
+				argname="index"
+				id="1612d989-a66d-4764-8f84-b018948e26f6">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedCondition"
+				id="1900d781-96d0-4870-add1-8ccb6bfa2d46">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Condition #1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="765c11e8-d519-4163-b99c-65f04345c8ee">
+				<argument
+				argname="index"
+				id="1612d989-a66d-4764-8f84-b018948e26f6">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedCondition"
+				id="1900d781-96d0-4870-add1-8ccb6bfa2d46">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Condition #2
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0c0694d7-01d9-4cb0-8153-0bb3b32d0911">
+				<argument
+				argname="index"
+				id="06930ae2-9bcf-4687-bf31-299c4d4fa0fe">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeDescription"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ef219d08-82ad-49a1-9a83-5c6e37a8cd69">
+				<argument
+				argname="index"
+				id="0596c39b-d381-4151-a1a3-9b5b787f4a53">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+				<argument
+				argname="description"
+				id="0c79ce8a-c750-4547-9105-387d30a681e6">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Condition #11
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="MoveScroll"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="011b6212-a0e3-4b65-9074-d0953eea8ac4">
+				<argument
+				argname="attribute"
+				id="a1a9abad-35ca-4618-bfac-53869c97e75d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MaxValue
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="changeTypes"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="5e0256b2-3a37-4bba-94c0-4ae40ea33b4a">
+				<argument
+				argname="index"
+				id="c6f98fa8-6576-4dde-8083-9c6f522481fd">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="typesCount"
+				id="d91bade4-fbbe-446f-9f49-989983a53bda">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0c0694d7-01d9-4cb0-8153-0bb3b32d0911">
+				<argument
+				argname="index"
+				id="06930ae2-9bcf-4687-bf31-299c4d4fa0fe">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeType"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="71beecdc-c415-4a82-b0aa-8dac97d14a35">
+				<argument
+				argname="expectedCount"
+				id="febb161d-5cb6-464a-b419-c89fac0cbf13">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						3
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="MoveScroll"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="011b6212-a0e3-4b65-9074-d0953eea8ac4">
+				<argument
+				argname="attribute"
+				id="a1a9abad-35ca-4618-bfac-53869c97e75d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MinValue
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="2e4f6aff-f4d5-4a6b-b517-68aae725f98b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="0585aaaa-83cf-4746-8901-305116173b89">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Matrices']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="09ef5f43-50cc-42f7-9d26-628633cd860e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="8de1876d-97bc-49f0-bd17-bd4152c8014c">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Matrices']//list/container[@caption='Calculated']/container/container/container[@automationid='PART_ItemsPanel']//container[@automationid='PART_CompleteHeader']/container[@automationid='PART_ItemContent']/?/?/text[1]
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeName"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="3a7c8510-e810-4c42-b80c-9e89a4cc4262">
+				<argument
+				argname="newName"
+				id="6c175e7c-d21b-405e-9948-aa60fd86ab29">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						TotalTotal
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="bfea3ccf-dac0-475a-b292-53d8c0a1fad2"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkMatrix"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d0a3762f-0686-4c46-9b9d-9fe5d892d4cf">
+				<argument
+				argname="index"
+				id="9f2d4082-b0c3-4a52-a50d-07f5238aa6ff">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="41a68746-a44f-45ce-9f10-33181810347c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						TotalTotal
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkMatrix"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d0a3762f-0686-4c46-9b9d-9fe5d892d4cf">
+				<argument
+				argname="index"
+				id="9f2d4082-b0c3-4a52-a50d-07f5238aa6ff">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="41a68746-a44f-45ce-9f10-33181810347c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						TotalTotal
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="8917eb01-433d-4c00-9145-3b159ba59318"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3e1bb9a8-1d2d-4935-8be8-038851f0dd9f">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@automationid='XmlTab']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="checkXmlChanges"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="204d097e-3515-4f34-9db7-1ff2d07a9334">
+				<argument
+				argname="expectedXml"
+				id="20856b83-cbbd-4338-a8cd-51d644d3b899">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						ValidationConditions.txt
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e04824ce-5e27-477f-bf3a-08b2aee790c3"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0c0694d7-01d9-4cb0-8153-0bb3b32d0911">
+				<argument
+				argname="index"
+				id="06930ae2-9bcf-4687-bf31-299c4d4fa0fe">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeDescription"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ef219d08-82ad-49a1-9a83-5c6e37a8cd69">
+				<argument
+				argname="index"
+				id="0596c39b-d381-4151-a1a3-9b5b787f4a53">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="description"
+				id="0c79ce8a-c750-4547-9105-387d30a681e6">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Condition #12
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="c2edae3d-2b48-47db-a59a-83fb866aa08c"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3e1bb9a8-1d2d-4935-8be8-038851f0dd9f">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@automationid='XmlTab']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeType"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="40721a95-b3b6-4eb0-9df8-5415dccbb97f">
+				<argument
+				argname="xml"
+				id="674d2a52-fb03-4b10-a2e0-3aa3ff013323">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						ChangeTypes.txt
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="226f637e-f22c-4e2f-8822-079a3e333065"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="66fd9157-a3e3-4258-9efd-9010d3b3f232">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@automationid='XmlTab']/container[@automationid='XmlSection']//button[@text='Apply']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="09e3e66b-3b6a-47db-827f-742880a58a47"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="df3386f7-e8c5-42eb-9fd4-afef08c53cb7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Transforms']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="changeOutput"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0dfa7c89-7709-49fe-9620-303efb9adc80">
+				<argument
+				argname="output"
+				id="f1732060-2f32-434e-9e3f-4f38622405ed">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Calc
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="7d120a48-a2b0-4a10-8359-576c90da8c8e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectValidationIem"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="51f7b798-f0a7-47a7-81cf-551db9938776">
+				<argument
+				argname="index"
+				id="db61d635-0643-499c-9a27-a472652fec14">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkMatrix"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d0a3762f-0686-4c46-9b9d-9fe5d892d4cf">
+				<argument
+				argname="index"
+				id="9f2d4082-b0c3-4a52-a50d-07f5238aa6ff">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="41a68746-a44f-45ce-9f10-33181810347c">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Calc
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectCondition"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="0c0694d7-01d9-4cb0-8153-0bb3b32d0911">
+				<argument
+				argname="index"
+				id="06930ae2-9bcf-4687-bf31-299c4d4fa0fe">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="MoveScroll"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="011b6212-a0e3-4b65-9074-d0953eea8ac4">
+				<argument
+				argname="attribute"
+				id="a1a9abad-35ca-4618-bfac-53869c97e75d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MaxValue
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="checkTypes"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="9f6cef06-14dd-460e-b464-5fd97bdcfac7">
+				<argument
+				argname="indexes"
+				id="a5214bb1-2fdf-42cc-aeeb-138cf4531c39">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+				<argument
+				argname="typesCount"
+				id="17e1e3ab-148e-4afe-aa3a-30d151a73e15">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="MoveScroll"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="011b6212-a0e3-4b65-9074-d0953eea8ac4">
+				<argument
+				argname="attribute"
+				id="a1a9abad-35ca-4618-bfac-53869c97e75d">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MinValue
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="09e3e66b-3b6a-47db-827f-742880a58a47"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="df3386f7-e8c5-42eb-9fd4-afef08c53cb7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Transforms']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="toDeleteTransform"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="979b92cf-adc7-4bdc-96ec-40a97fc8ac7a">
+				<argument
+				argname="index"
+				id="78e7f33d-117f-4f29-93af-51b2eb8a655c">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ed251be4-6bc3-4d1b-965a-8208cb59f90c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3151f5cc-fd1b-480c-8183-aff304f158bf">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="False"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="-1,-1,0,0"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						WarningMessageTextBlock
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						WarningMessageTextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Transforms']//text[@automationid='WarningMessageTextBlock']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="True"
+		methodname="validateWarning"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="6348b974-eabf-4498-8dc2-a9839b0838bd">
+				<argument
+				argname="expectedMssg"
+				id="c5e1fc5d-742a-4312-976f-7b5025f15109">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						The XY Reduction Total transform cannot currently be removed because its output is used by a condition in the validation table ValidationsTable1. Please remove, or, modify the conditions in this validation table that use the Calc data before trying again.
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="7d120a48-a2b0-4a10-8359-576c90da8c8e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="selectValidationIem"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="51f7b798-f0a7-47a7-81cf-551db9938776">
+				<argument
+				argname="index"
+				id="db61d635-0643-499c-9a27-a472652fec14">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="93cde7d2-3bb9-41b7-907f-d12d1445983e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="e15cf8f9-22c6-4515-8390-9ac08ac2131f">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']//button[@text='Remove']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="09e3e66b-3b6a-47db-827f-742880a58a47"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="df3386f7-e8c5-42eb-9fd4-afef08c53cb7">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Transforms']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="toDeleteTransform"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="979b92cf-adc7-4bdc-96ec-40a97fc8ac7a">
+				<argument
+				argname="index"
+				id="78e7f33d-117f-4f29-93af-51b2eb8a655c">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ed251be4-6bc3-4d1b-965a-8208cb59f90c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3151f5cc-fd1b-480c-8183-aff304f158bf">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="False"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="-1,-1,0,0"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						WarningMessageTextBlock
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						WarningMessageTextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Transforms']//text[@automationid='WarningMessageTextBlock']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				False
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="26ebfdb3-47b3-45ca-b872-4dba502bc600"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="03fd9a11-1dc1-4e15-95c6-2e68bf2ad8b5">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/?/?/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/?/?/tabpage[@title='Validation']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="02e3e57e-1bd3-4a2c-afab-513d99356e3b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="5d0865f5-c0fe-4040-84bf-c29d7b563d70">
+				<path>
+					/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/?/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']//button[@text='Add']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkNAMatrix"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="4412752b-3be2-4210-acb6-ab94f374e3fc">
+				<argument
+				argname="index"
+				id="64be71d5-35fd-42d1-b62f-020d378e707a">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+				<argument
+				argname="expectedStr"
+				id="18437ffd-6fbc-45a3-9692-0bac417abefc">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						(NA)
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkComboboxForItemCount"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="5b2630d0-d1a6-401b-ae61-6d5077fe6385">
+				<argument
+				argname="combobox"
+				id="8c567fea-d292-49ca-94a2-3971e52300df">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="ItemRecorderEditor"
+					id="51ea406a-d599-4d3e-9dda-204b4e81a0b1">
+						<path>
+							/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']//list[@automationid='TableItemsList']/container[1]/?/?/listitem//combobox[@automationid='EndpointMatricesComboBox']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="expectedCount"
+				id="a7e394a7-0f4a-444e-a7d5-d786381c0022">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="checkComboboxForType"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="34c8fa57-06c7-41f9-8c88-69ada3439c0f">
+				<argument
+				argname="adapter"
+				id="2cdd0a75-a15b-4d7e-a428-212e7f1bcf10">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral, PublicKeyToken=b798506b574ebc9a
+					</argvaluetype>
+					<argvalue/>
+					<info
+					sourcename="RepositoryEditor"
+					id="2c2b19fe-472d-49cc-ad79-d64ffd7d80d2">
+						<element
+						role="container"
+						prefcap="container"
+						capabilities="wpfelement"
+						flavor="wpf"
+						visible="True"
+						valid="True"
+						enabled="True"
+						hasfocus="False"
+						dontcache="False"
+						index="0"
+						rect="1356,340,134,22"
+						snapElem="">
+							<attribute
+							name="basetype"
+							type="System.String">
+								System.Windows.Controls.Grid
+							</attribute>
+							<attribute
+							name="fulltype"
+							type="System.String">
+								System.Windows.Controls.Grid
+							</attribute>
+							<attribute
+							name="type"
+							type="System.String">
+								Grid
+							</attribute>
+							<dynamicattribute
+							name="ActualHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.ActualHeight property of type Double."/>
+							<dynamicattribute
+							name="ActualWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.ActualWidth property of type Double."/>
+							<dynamicattribute
+							name="AllowDrop"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.AllowDrop property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Background"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.Background property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="BindingGroup"
+							type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.BindingGroup property of type BindingGroup."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffect"
+							type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.BitmapEffect property of type BitmapEffect."
+							readonly="False"/>
+							<dynamicattribute
+							name="BitmapEffectInput"
+							type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.BitmapEffectInput property of type BitmapEffectInput."
+							readonly="False"/>
+							<dynamicattribute
+							name="CacheMode"
+							type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.CacheMode property of type CacheMode."
+							readonly="False"/>
+							<dynamicattribute
+							name="Clip"
+							type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.Clip property of type Geometry."
+							readonly="False"/>
+							<dynamicattribute
+							name="ClipToBounds"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.ClipToBounds property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Column"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.Grid.Column property of type Int32."
+							readonly="False"/>
+							<dynamicattribute
+							name="ColumnSpan"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.Grid.ColumnSpan property of type Int32."
+							readonly="False"/>
+							<dynamicattribute
+							name="ContextMenu"
+							type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.ContextMenu property of type ContextMenu."
+							readonly="False"/>
+							<dynamicattribute
+							name="DataContext"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.Grid.DataContext property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Effect"
+							type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.Effect property of type Effect."
+							readonly="False"/>
+							<dynamicattribute
+							name="FlowDirection"
+							type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.FlowDirection property of type FlowDirection."
+							readonly="False"/>
+							<dynamicattribute
+							name="Focusable"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.Focusable property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="ForceCursor"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.ForceCursor property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Height"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.Height property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="HorizontalAlignment"
+							type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.HorizontalAlignment property of type HorizontalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsHitTestVisible"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.IsHitTestVisible property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsItemsHost"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.IsItemsHost property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsManipulationEnabled"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.IsManipulationEnabled property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="IsSharedSizeScope"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.IsSharedSizeScope property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="LayoutTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.LayoutTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.MaxHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MaxWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.MaxWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinHeight"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.MinHeight property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="MinWidth"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.MinWidth property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="Opacity"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.Opacity property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="OpacityMask"
+							type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.OpacityMask property of type Brush."
+							readonly="False"/>
+							<dynamicattribute
+							name="OverridesDefaultStyle"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.OverridesDefaultStyle property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransform"
+							type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.RenderTransform property of type Transform."
+							readonly="False"/>
+							<dynamicattribute
+							name="RenderTransformOrigin"
+							type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.RenderTransformOrigin property of type Point."
+							readonly="False"/>
+							<dynamicattribute
+							name="Row"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.Grid.Row property of type Int32."
+							readonly="False"/>
+							<dynamicattribute
+							name="RowSpan"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.Grid.RowSpan property of type Int32."
+							readonly="False"/>
+							<dynamicattribute
+							name="ShowGridLines"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.ShowGridLines property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="SnapsToDevicePixels"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.SnapsToDevicePixels property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="Tag"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.Grid.Tag property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="ToolTip"
+							type="System.Object"
+							description="The WPF System.Windows.Controls.Grid.ToolTip property of type Object."
+							readonly="False"/>
+							<dynamicattribute
+							name="Uid"
+							type="System.String"
+							description="The WPF System.Windows.Controls.Grid.Uid property of type String."
+							weight="150"
+							readonly="False"/>
+							<dynamicattribute
+							name="UseLayoutRounding"
+							type="System.Boolean"
+							description="The WPF System.Windows.Controls.Grid.UseLayoutRounding property of type Boolean."
+							readonly="False"/>
+							<dynamicattribute
+							name="VerticalAlignment"
+							type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.VerticalAlignment property of type VerticalAlignment."
+							readonly="False"/>
+							<dynamicattribute
+							name="Visibility"
+							type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+							description="The WPF System.Windows.Controls.Grid.Visibility property of type Visibility."
+							readonly="False"/>
+							<dynamicattribute
+							name="Width"
+							type="System.Double"
+							description="The WPF System.Windows.Controls.Grid.Width property of type Double."
+							readonly="False"/>
+							<dynamicattribute
+							name="ZIndex"
+							type="System.Int32"
+							description="The WPF System.Windows.Controls.Grid.ZIndex property of type Int32."
+							readonly="False"/>
+							<dynamicaction
+							displayName="ShouldSerializeColumnDefinitions"
+							description="The WPF System.Windows.Controls.Grid.ShouldSerializeColumnDefinitions method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Boolean"/>
+							</dynamicaction>
+							<dynamicaction
+							displayName="ShouldSerializeRowDefinitions"
+							description="The WPF System.Windows.Controls.Grid.ShouldSerializeRowDefinitions method.">
+								<returns
+								displayName="returns"
+								description="Return value."
+								type="System.Boolean"/>
+							</dynamicaction>
+						</element>
+						<path>
+							/form[@wpfnative='True' and @title~'^Protocol' and @processname='MyAssays.Desktop.Analysis']/?/container[@automationid='LayoutRoot']/element[@automationid='DockingManager']/container[@automationid='PropertyEditorPanel']/container[@automationid='TransformMatrixEditorControl']/tabpagelist[@automationid='TabControl']/tabpage[@title='Validation']//element[@automationid='PropertyGrid']/?/?/container[@automationid='Grid']/container/list[@automationid='PART_PropertyView']/?/?/container[@caption='General']/container/container/container[2]//combobox/container
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="expectedCount"
+				id="bf0d0e42-dd24-4f5c-86a4-442e60f8950e">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+				<argument
+				argname="expType"
+				id="e2bf1566-eb28-4108-a685-43f5cd5c75a5">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Expression
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssays_Wizard_RanorexTestsRepository"
+	id="1ee15470-4633-4219-9bf1-6b40fdaff768"
+	rxversion="6.1"
+	relativepath="MyAssays.Wizard.RanorexTestsRepository.rxrep">
+		<codegen
+		classname="MyAssays_Wizard_RanorexTestsRepository"
+		namespace="MyAssays.Wizard.RanorexTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="158e6447-bc49-41b0-9853-cd52b84f0e8b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidationConditions.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
